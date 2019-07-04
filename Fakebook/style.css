@@ -1,0 +1,245 @@
+/*====================LAYOUT SECTION===============*/
+
+body {
+	background-color: #dfe3ee;
+	font-family: Arial;
+	font-size: 14px;
+	margin: 0px;
+	overflow:hidden;
+}
+
+#header {
+	margin: 0px;
+	height: 12.2%;
+	width: 100%;
+	background-color: #3b5998;
+}
+
+#header h3 {
+	width: 40px;
+	cursor: pointer;
+}
+
+.text1 {
+	position: fixed;
+	left:470px;
+	top:100px;
+}
+
+.image {
+	position: fixed;
+	left: 440px;
+	top: 165px;
+}
+
+#loginbutton {
+	background-color: #3b5998;
+	color: white;
+	border-color: #3b5998;
+	border: 0.5px solid black;
+	border-radius: 2px;
+	position: fixed;
+	padding: 2.5px;
+	left: 1430px;
+	top: 35px;
+}
+
+/*====================LOGIN MENU===================*/
+
+.email {
+	color: white;
+	font-size: 90%;
+	position: fixed;
+	left: 1050px;
+	top: 20px;
+}
+
+.pass {
+	color: white;
+	font-size: 90%;
+	position: fixed;
+	left: 1240px;
+	top: 20px;
+}
+
+#fogottenaccount {
+	font-size: 90%;
+	position: fixed;
+	top: 50px;
+	left: 1240px;
+}
+
+#fogottenaccount p a {
+	color: #dfe3ee;
+	text-decoration: none;
+}
+
+#fogottenaccount p a:hover {
+	text-decoration: underline;
+}
+
+/*====================CREATE ACCOUNT===============*/
+
+#createaccount {
+	position: fixed;
+	left: 1050px;
+}
+
+#createaccountp {
+	position: fixed;
+	left: 1050px;
+	top: 140px;
+	font-size: 150%;
+}
+
+#form {
+	width: 500px;
+	height: 300px;
+	position: fixed;
+	left: 1050px;
+	top: 200px;
+}
+
+
+#terms a {
+	text-decoration: none;
+}
+
+#terms a:hover {
+	text-decoration: underline;
+}
+
+#firstname {
+	width:175px;
+	height: 20px;
+	padding:10px;
+	border-radius: 5px;
+}
+
+#lastname {
+	width:175px;
+	height: 20px;
+	margin-left: 5px;
+	padding:10px;
+	border-radius: 5px;
+}
+
+#email {
+	width:385px;
+	margin-top: 10px;
+	height: 20px;
+	padding:10px;
+	border-radius: 5px;
+}
+
+.select {
+	padding: 5px;
+	margin: 0px;
+}
+
+#terms {
+	font-size: 80%;
+	color: grey;
+}
+
+#button {
+	background-color: green;
+	color: white;
+	width: 200px;
+	padding: 6px;
+	text-align: center;
+	font-size: 150%;
+	border: 0.5px solid black;
+	border-radius: 5px;
+	text-shadow: 1px 1px 1px grey;
+}
+
+#button:hover {
+	opacity: 0.9;
+	cursor: pointer;
+}
+
+#firstname::placeholder {
+	font-size: 130%;
+
+}
+
+#lastname::placeholder {
+	font-size: 130%;
+
+}
+
+#email::placeholder {
+	font-size: 130%;
+	
+}
+
+/*====================NAVBAR SECTION===============*/
+
+#navbar {
+	background-color: white;
+	height: 270px;
+	width: 100%;
+	position: fixed;
+	top: 700px;
+}
+
+#links {
+	
+	position: fixed;
+	bottom: 170px;
+	left: 440px;
+	width: 950px;
+	font-size: 90%;
+}
+
+#links ul li {
+	display: inline;
+}
+
+#links ul li a {
+	text-decoration: none;
+	padding: 5px;
+}
+
+#links ul li a:hover {
+	text-decoration: underline;
+}
+
+#list1 {
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 5px;
+	margin-left: 0px;
+}
+
+#list2 ul li a {
+
+}
+
+#copyright {
+	position: fixed;
+	left: 485px;
+	bottom: 130px;
+	font-size: 80%;
+	color: grey;
+} 
+
+/*====================HEADINGS SECTION=============*/
+
+h1 {
+	font-size: 250%;
+}
+
+h2 {
+
+}
+
+h3 {
+	padding: 20px;
+	margin: 0px;
+	color: white;
+	font-size: 300%;
+	position: relative;
+	left: 450px;
+	top: 10px;
+}
